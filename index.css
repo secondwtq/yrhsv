@@ -1,0 +1,50 @@
+
+body {
+  background-color: #9e9dad;
+  background-image: url(project-paper.png);
+  font-family: 'Avenir Next Condensed', 'Futura', 'Roboto Condensed', 'Helvetica Neue', sans-serif;
+}
+
+.yrhsv-main {
+  max-width: 640px;
+  margin: 3em auto;
+  display: flex;
+}
+
+.yrhsv-main .yrhsv-preview {
+  width: 256px;
+  height: 256px;
+  margin: 0 auto;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+  border-radius: 2px;
+}
+
+.yrhsv-main .yrhsv-sliders {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.yrhsv-main .yrhsv-sliders hr {
+  margin: 12px 0;
+}
+
+.yrhsv-main .yrhsv-clrslider > * {
+  vertical-align: middle;
+}
+
+.yrhsv-main .yrhsv-clrslider span {
+  display: inline-block;
+  width: 48px;
+  margin-right: 8px;
+  text-align: right;
+}
+
+.yrhsv-main .yrhsv-clrslider input.yrhsv-txtbox {
+  width: 42px;
+  text-align: center;
+}
+
+.yrhsv-main .yrhsv-clrslider input.yrhsv-slider {
+  width: 96px;
+}
