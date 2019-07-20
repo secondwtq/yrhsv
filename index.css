@@ -14,7 +14,7 @@ body {
 .yrhsv-main .yrhsv-preview {
   width: 256px;
   height: 256px;
-  margin: 0 auto;
+  margin: 1em auto;
   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
   border-radius: 2px;
 }
@@ -43,6 +43,19 @@ body {
 .yrhsv-main .yrhsv-clrslider input.yrhsv-txtbox {
   width: 42px;
   text-align: center;
+  background-color: rgba(0, 0, 0, 0.2);
+  border: none;
+  border-radius: 2px;
+  color: white;
+  margin: 2px;
+  outline: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  font-family: 'Avenir Next Condensed', 'Futura', 'Roboto Condensed', 'Helvetica Neue', sans-serif;
+}
+
+.yrhsv-main .yrhsv-clrslider input.yrhsv-txtbox:focus {
+  border-bottom-color: rgba(217, 140, 38, 0.9);
+  box-shadow: 0 1px 0 rgba(217, 140, 38, 0.9);
 }
 
 .yrhsv-main .yrhsv-clrslider input.yrhsv-slider {
